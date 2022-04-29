@@ -2,17 +2,20 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "prettier"
   ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+      "prettier"
   ],
   "rules": {
     "no-console": 1,
     "semi": 1,
     "indent": ["warn", 2],
-    "no-debugger": "warn"
+    "no-debugger": "warn",
+    "prettier/prettier": 2
   }
 }
