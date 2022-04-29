@@ -8,7 +8,8 @@
     "test": "jest",
     "bundle": "webpack",
     "watch": "webpack --watch",
-    "serve": "cd dist && live-server"
+    "serve": "cd dist && live-server",
+    "lint": "eslint . --ext .ts"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,9 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
     "live-server": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "ts-jest": "^27.1.4",
