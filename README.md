@@ -8,13 +8,20 @@
 
 ## Technologies Used
 
-* HTML
-* JavaScript
-* TypeScript
-* Jest
-* Babel
-* TDD
-* Node
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=35px />
+          
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width=30px />
+          
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width=30px />
+          
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width=30px />
+          
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" width=30px />
+
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width=30px />
+          
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width=30px />
+          
 
 ## Description
 
@@ -29,7 +36,11 @@ A basic TypeScript template for a development and testing environment.
 * Run *NPM init -y* to initialize your project. 
 * Run *NPM install* to install dependencies. 
 * If you plan to update the project make sure you push the .gitignore file to github first by using *git add .gitignore* and then pushing it to your personal github.
-* Run *NPM run build* to build the project environment. 
+* Run *npm install --save-dev @babel/preset-typescript* to Install Babel.
+* Run *npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin* to Install the EsLint Parser and Plugin.
+* Run *NPM install --save-dev dotenv-webpack ts-loader typescript webpack webpack-cli webpack-dev-server* to Install the DotENV loader and webpack dependency. 
+* Run *NPM install --save-dev prettier* to Install the Prettier dependency. 
+* Run *NPM run bundle && npm-run-all --parallel watch serve* to build the project environment. 
 * Run *NPM run start* to run the program in your browser. 
 * Run *NPM run test* to run Jest. 
 
